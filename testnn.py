@@ -126,7 +126,7 @@ def test_loop(dataloader, model, loss_fn):
 learning_rate = 1e-3 #How much to update models parameteres at each batch/epoch
 batch_size = 64 #Number of data samples propagated through the network before the parameters are updated
 epochs = 10 #Number of times to iterate over dataset
-PATH = "model.pt"
+PATH = "testnn/model.pt"
 LOSS = 0.4
 
 loss_fn = nn.CrossEntropyLoss() #measures degree of dissimilarity of obtained result to the target value, want to minimize
